@@ -1,0 +1,42 @@
+baseURL = 'https://imjywang.com/'
+languageCode = 'en-us'
+title = 'Jingying Wang'
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 6
+
+[params]
+  author = 'Jingying Wang'
+  titleTag = 'PhD in Psychology'
+  email = 'Jingyingin18@gmail.com'
+  scholar = 'https://scholar.google.com/citations?hl=en&user=IcF8vVwAAAAJ'
+  linkedin = 'https://www.linkedin.com/in/jingying-wang-baa3a2223'
+  github = '# add-your-github-link-here'
+  cvPath = '/files/Jingying_Wang_CV.pdf'
+  summary = 'Researcher studying neuropsychiatric disorders through behavioral data, sensing technologies, brain stimulation, and neuroimaging.'
+  interests = ['Neuropsychiatric disorders', 'Behavior patterns', 'Analysis and prediction', 'Brain stimulation', 'Wearable and wireless sensing', 'Aging and neuroimaging']
+  showPostsOnHome = false
+
+[menu]
+  [[menu.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 10
+  [[menu.main]]
+    name = 'CV'
+    pageRef = '/cv'
+    weight = 20
+  [[menu.main]]
+    name = 'Publications'
+    pageRef = '/publications'
+    weight = 30
+  [[menu.main]]
+    name = 'Contact'
+    pageRef = '/#contact'
+    weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

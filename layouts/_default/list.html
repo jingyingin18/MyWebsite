@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="card content-page">
+  <header class="page-header">
+    <p class="eyebrow">{{ .Section | humanize }}</p>
+    <h1>{{ .Title }}</h1>
+    <div class="prose">{{ .Content }}</div>
+  </header>
+
+  <div class="post-list">
+    {{ range .Pages }}
+      <article class="post-item">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ if .Date }}<p class="meta">{{ .Date.Format "January 2, 2006" }}</p>{{ end }}
+        <p>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
