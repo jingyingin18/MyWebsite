@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/">
+      <span class="brand-name">{{ .Site.Title }}</span>
+      <span class="brand-tag">{{ .Site.Params.titleTag }}</span>
+    </a>
+    <nav class="nav">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

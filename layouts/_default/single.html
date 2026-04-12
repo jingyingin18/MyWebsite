@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="card content-page">
+  <header class="page-header">
+    <p class="eyebrow">{{ .Section | humanize }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ if .Date }}<p class="meta">{{ .Date.Format "January 2, 2006" }}</p>{{ end }}
+  </header>
+  <div class="prose">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
