@@ -15,24 +15,15 @@
     </div>
 
     <div class="button-row">
-      <a class="button" href="{{ .Site.Params.cvPath }}">Download CV</a>
-      <a class="button button-secondary" href="{{ .Site.Params.scholar }}">Google Scholar</a>
-      <a class="button button-secondary" href="{{ .Site.Params.linkedin }}">LinkedIn</a>
-    </div>
+  	  <a class="button" href="/files/Jingying_Wang_Resume_2026.pdf" target="_blank" rel="noopener">Download CV</a>
+  	  <a class="button button-secondary" href="https://scholar.google.com/citations?hl=en&user=IcF8vVwAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+  	  <a class="button button-secondary" href="https://www.linkedin.com/in/jingying-wang-baa3a2223" target="_blank" rel="noopener">LinkedIn</a>
+	</div>
   </div>
 
   <div class="home-hero-photo">
     <img src="/images/profile.png" alt="Jingying Wang">
   </div>
-</section>
-
-<section class="home-section" id="research">
-  <h2>Research Interests</h2>
-  <ul class="tag-list">
-    {{ range .Site.Params.interests }}
-    <li>{{ . }}</li>
-    {{ end }}
-  </ul>
 </section>
 
 <section class="home-section" id="about">
