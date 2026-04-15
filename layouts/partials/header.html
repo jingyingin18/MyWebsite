@@ -1,13 +1,15 @@
 <header class="site-header">
   <div class="container nav-wrap">
-    <a class="brand" href="/">
-      <span class="brand-name">{{ .Site.Title }}</span>
-      <span class="brand-tag">{{ .Site.Params.titleTag }}</span>
+    <a class="brand" href="/#top">
+      <span class="brand-name">Jingying Wang</span>
+      <span class="brand-tag">PhD in Psychology</span>
     </a>
+
     <nav class="nav">
-      {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
+      <a href="/#about">About</a>
+      <a href="/#publications">Research</a>
+      <a href="/#cv">CV</a>
+      <a href="/#contact">Contact</a>
     </nav>
   </div>
 </header>
