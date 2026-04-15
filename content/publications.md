@@ -10,18 +10,13 @@ For more and the most up-to-date publication list, see my [Google Scholar profil
 ### Computational Vocal and Gait Biomarkers
 
 -	**Jingying Wang**, Yang Wen, Junhong Zhou, Nan Zhao, & Tingshao Zhu (2024).  Identifying stress scores from gait biometrics captured using a camera: A cross-sectional study. Gait & Posture, 109, 15-21.
--	Yazheng Di, **Jingying Wang**, Xiaoqian Liu, & Tingshao Zhu (2021). Combining polygenic risk score and voice features to detect major depressive disorders. Frontiers in Genetics, 12, 761141.
--	Yazheng Di, **Jingying Wang**, Weidong Li, & Tingshao Zhu. (2021). Using i-vectors from voice features to identify major depressive disorder. Journal of Affective Disorders, 288, 161-166. 
--	Yameng Wang, **Jingying Wang**, Xiaoqian Liu, & Tingshao Zhu. (2021). Detecting de- pression through gait data: examining the contribution of gait features in recognizing depression. Frontiers in psychiatry, 12:661213. 
--	**Jinying Wang**, Lei Zhang, Tianli Liu, Wei Pan, Bin Hu, & Tingshao Zhu. (2019). Acoustic differences between healthy and depressed people: a cross-situation study. BMC Psychiatry. 19:300. 
--	Nan Zhao, Zhan Zhang, Yameng Wang, **Jingying Wang**, Baobin Li, Tingshao Zhu, & Yuanyuan Xiang. (2019). See your mental state from your walk: Recognizing anxiety and depression through Kinect-recorded gait data. PLoS one, 14(5), e0216591. 
--	Pan Wei, **Jingying Wang**, Tianli Liu, Xiaoqian Liu, Mingming Liu, Bin Hu, & Tingshao Zhu. (2018). Depression recognition based on speech analysis. Chinese Science bulletin. 63(20):2081-2092. (In Chinese) 
+-	Yazheng Di, **Jingying Wang**, Weidong Li, & Tingshao Zhu. (2021). Using i-vectors from voice features to identify major depressive disorder. Journal of Affective Disorders, 288, 161-166.  
+-	**Jinying Wang**, Lei Zhang, Tianli Liu, Wei Pan, Bin Hu, & Tingshao Zhu. (2019). Acoustic differences between healthy and depressed people: a cross-situation study. BMC Psychiatry. 19:300.  
 
 ### Neurobehavioral and Structural Correlates of Aging in Autism Spectrum Disorder
 
 -	**Jingying Wang**, Danielle Christensen, Stephen A. Coombes, & Zheng Wang. (2024). Cognitive and brain morphological deviations in middle-to-old aged autistic adults: A systematic review and meta-analysis. Neuroscience & Biobehavioral Reviews, 105782.
 -	Christensen, Danielle, Young Seon Shin, **Jingying Wang**, Carolina R. Cuomo, Tyler Dentry, ... & Zheng Wang. (2025). Subcortical brain volume variations in autistic individuals across the lifespan. Molecular Autism, 16(1), 46.
--	Qu, Hang, **Jingying Wang**, Desirae J. Shirley, Hanna M. Gemmell, Danielle Christensen, Ann‐Marie Orlando, ... & Zheng Wang. (2025). Atypical postural control variability and coordination persist into middle and older adulthood in autism spectrum disorder. Autism Research, 18(4), 752-764.
 -	Shin, Young Seon, Danielle Christensen, **Jingying Wang**, Desirae J. Shirley, Ann-Marie Orlando, Regilda A. Romero, ... & Zheng Wang. (2025). Transcallosal white matter and cortical gray matter variations in autistic adults aged 30–73 years. Molecular Autism, 16(1), 16.
 
 ### Wearable Sensor-based Clinical Quantification in Parkinson’s Disease
@@ -40,8 +35,6 @@ For more and the most up-to-date publication list, see my [Google Scholar profil
 -	**Jingying Wang**, Tingshao Zhu, Bibo Hao, & Tianli Liu. (2016). Life satisfaction among microblog users: an analysis on linguistic and behavior features. Chinese Public Health, 32(2), 225-229. (In Chinese) 
 -	**Jingying Wang**, Shuoqiu Gan, Nan Zhao, Tianli Liu, & Tingshao Zhu. (2016). Chinese mood variation analysis based on Sina Weibo. Journal of University of Chinese Academy of Sciences. 33(6), 815-824. (In Chinese) 
 -	**Jingying Wang**, Tianli Liu, Tingshao Zhu, Lei Zhang, Bibo Hao, & Zhenxiang Chen. (2015). Classify sina weibo users into high or low happiness groups using linguistic and behavior features. arXiv. preprint arXiv:1507.01796. 
--	Tingshao Zhu, **Jingying Wang**, Nan Zhao, & Xiaoqian Liu. (2015). Reform on psycho- logical research in big data age. Journal of Xinjiang Normal University (Philosophy and Social Sciences). 36(4), 100-107. (In Chinese) 
-
 
 ## Peer Review and Scholarly Service
 
