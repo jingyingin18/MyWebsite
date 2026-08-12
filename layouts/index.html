@@ -1,64 +1,149 @@
 {{ define "main" }}
 
-{{ $about := site.GetPage "/about" }}
-{{ $publications := site.GetPage "/publications" }}
-{{ $cv := site.GetPage "/cv" }}
+<section class="hero" id="top">
+  <div class="hero-content">
 
-<section class="home-hero" id="top">
-  <div class="home-hero-copy">
-    <p class="eyebrow">Academic profile</p>
-    <h1>{{ .Site.Title }}</h1>
-    <p class="tagline">{{ .Site.Params.titleTag }}</p>
+    <div class="hero-copy">
+      <p class="hero-kicker">
+        Computational Psychology · Behavioral Data Science
+      </p>
 
-    <div class="hero-prose">
-      {{ .Content }}
+      <h1>
+        Understanding human behavior through data.
+      </h1>
+
+      <p class="hero-intro">
+        I study behavioral and neural signatures of neuropsychiatric
+        conditions using computational, statistical, and multimodal approaches.
+      </p>
+
+      <div class="hero-links">
+        <a href="{{ .Site.Params.scholar }}" target="_blank" rel="noopener">
+          Google Scholar ↗
+        </a>
+
+        <a href="/files/Jingying_Wang_Resume_2026.pdf"
+           target="_blank"
+           rel="noopener">
+          Curriculum Vitae ↗
+        </a>
+
+        <a href="{{ .Site.Params.linkedin }}"
+           target="_blank"
+           rel="noopener">
+          LinkedIn ↗
+        </a>
+      </div>
     </div>
 
-    <div class="button-row">
-  	  <a class="button" href="/files/Jingying_Wang_Resume_2026.pdf" target="_blank" rel="noopener">Download CV</a>
-  	  <a class="button button-secondary" href="https://scholar.google.com/citations?hl=en&user=IcF8vVwAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-  	  <a class="button button-secondary" href="https://www.linkedin.com/in/jingying-wang-baa3a2223" target="_blank" rel="noopener">LinkedIn</a>
-	</div>
+    <div class="hero-portrait" aria-hidden="true">
+      <img src="/images/profile.png" alt="">
+    </div>
+
+  </div>
+</section>
+
+
+<section class="home-section" id="research">
+
+  <div class="section-heading">
+    <h2>Research</h2>
+    <p>Three connected directions</p>
   </div>
 
-  <div class="home-hero-photo">
-    <img src="/images/profile.png" alt="Jingying Wang">
+  <div class="research-grid">
+
+    <article class="research-item">
+      <span class="research-number">01</span>
+      <h3>Behavioral Computing</h3>
+      <p>
+        Quantifying gait, movement, voice, and other behavioral signals
+        to understand individual differences and health.
+      </p>
+    </article>
+
+    <article class="research-item">
+      <span class="research-number">02</span>
+      <h3>Neuropsychiatric Health</h3>
+      <p>
+        Studying behavioral and neural changes associated with depression,
+        Parkinson's disease, autism, and aging.
+      </p>
+    </article>
+
+    <article class="research-item">
+      <span class="research-number">03</span>
+      <h3>Multimodal Methods</h3>
+      <p>
+        Combining wearable sensing, neuroimaging, brain stimulation,
+        statistics, and machine learning.
+      </p>
+    </article>
+
   </div>
 </section>
 
-<section class="home-section" id="about">
-  <h2>About</h2>
-  {{ with $about }}
-    <div class="section-prose">
-      {{ .Content }}
-    </div>
-  {{ end }}
-</section>
 
-<section class="home-section" id="publications">
-  <h2>Research</h2>
-  {{ with $publications }}
-    <div class="section-prose">
-      {{ .Content }}
-    </div>
-  {{ end }}
-</section>
+<section class="home-section selected-work">
 
-<section class="home-section" id="cv">
-  <h2>CV</h2>
-  {{ with $cv }}
-    <div class="section-prose">
-      {{ .Content }}
-    </div>
-  {{ end }}
-</section>
-
-<section class="home-section" id="contact">
-  <h2>Contact</h2>
-  <div class="contact-list">
-    <p><strong>Email:</strong> <a href="mailto:Jingyingin18@gmail.com">Jingyingin18@gmail.com</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jingying-wang-baa3a2223" target="_blank" rel="noopener">Profile</a></p>
+  <div class="section-heading">
+    <h2>Selected publications</h2>
+    <a href="/publications/">View all →</a>
   </div>
+
+  <div class="publication-preview">
+
+    <article class="publication-row">
+      <span class="publication-year">2024</span>
+      <div>
+        <h3>
+          Cognitive and brain morphological deviations in
+          middle-to-old aged autistic adults
+        </h3>
+        <p>Neuroscience &amp; Biobehavioral Reviews</p>
+      </div>
+    </article>
+
+    <article class="publication-row">
+      <span class="publication-year">2024</span>
+      <div>
+        <h3>
+          Identifying stress scores from gait biometrics
+        </h3>
+        <p>Gait &amp; Posture</p>
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+
+<section class="home-section experience-section">
+
+  <div class="section-heading">
+    <h2>Experience</h2>
+  </div>
+
+  <div class="experience-list">
+
+    <div class="experience-row">
+      <span>University of Florida</span>
+      <span>Research</span>
+    </div>
+
+    <div class="experience-row">
+      <span>The Hong Kong Polytechnic University</span>
+      <span>Research</span>
+    </div>
+
+    <div class="experience-row">
+      <span>Fudan University</span>
+      <span>Research</span>
+    </div>
+
+  </div>
+
 </section>
 
 {{ end }}
