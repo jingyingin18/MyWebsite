@@ -102,7 +102,7 @@ img {
 
 .hero-content {
   width: min(var(--max-width), calc(100% - 48px));
-  min-height: 620px;
+  min-height: 690px;
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -111,36 +111,36 @@ img {
 
 .hero-copy {
   position: relative;
-  z-index: 2;
-  width: min(670px, 64%);
-  padding: 90px 0 110px;
+  z-index: 3;
+  width: min(650px, 58%);
+  padding: 90px 0 120px;
 }
 
 .hero-kicker {
-  margin: 0 0 24px;
-  color: var(--muted);
+  margin: 0 0 26px;
+  color: #7d8ea3;
   font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.13em;
   text-transform: uppercase;
 }
 
 .hero h1 {
-  max-width: 720px;
+  max-width: 680px;
   margin: 0;
   font-family:
     Georgia,
     "Times New Roman",
     serif;
-  font-size: clamp(52px, 6vw, 78px);
+  font-size: clamp(64px, 6.4vw, 92px);
   font-weight: 400;
-  line-height: 1.03;
-  letter-spacing: -0.045em;
+  line-height: 0.98;
+  letter-spacing: -0.05em;
 }
 
 .hero-intro {
-  max-width: 620px;
-  margin: 30px 0 0;
+  max-width: 590px;
+  margin: 34px 0 0;
   color: var(--muted);
   font-size: 18px;
   line-height: 1.7;
@@ -149,13 +149,18 @@ img {
 .hero-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 28px;
-  margin-top: 36px;
+  gap: 34px;
+  margin-top: 34px;
 }
 
 .hero-links a {
-  font-size: 14px;
+  color: #2d67c7;
+  font-size: 15px;
   font-weight: 500;
+}
+
+.hero-links a:hover {
+  color: #1f4f9b;
 }
 
 
@@ -164,40 +169,36 @@ img {
 .hero-portrait {
   position: absolute;
   z-index: 1;
-  top: 15px;
-  right: -40px;
+  top: 20px;
+  right: -30px;
   bottom: 0;
-  width: 48%;
+  width: 52%;
   display: flex;
-  justify-content: flex-end;
   align-items: flex-end;
+  justify-content: flex-end;
+  pointer-events: none;
+}
 
-  /*
-    The mask removes the rectangular-photo feeling.
-    The portrait gradually dissolves toward the left and bottom.
-  */
-  -webkit-mask-image:
-    linear-gradient(
-      to left,
-      rgba(0, 0, 0, 1) 55%,
-      rgba(0, 0, 0, 0.75) 72%,
-      rgba(0, 0, 0, 0) 100%
-    );
-  mask-image:
-    linear-gradient(
-      to left,
-      rgba(0, 0, 0, 1) 55%,
-      rgba(0, 0, 0, 0.75) 72%,
-      rgba(0, 0, 0, 0) 100%
-    );
+.hero-portrait::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 180px;
+  background: linear-gradient(
+    to bottom,
+    rgba(250, 250, 248, 0),
+    var(--background)
+  );
+  z-index: 2;
 }
 
 .hero-portrait img {
+  position: relative;
+  z-index: 1;
   width: 100%;
-  max-height: 610px;
+  max-height: 660px;
   object-fit: contain;
   object-position: right bottom;
-  opacity: 0.92;
 }
 
 
@@ -395,11 +396,11 @@ main.container {
 
   .hero-copy {
     width: 100%;
-    padding: 72px 0 420px;
+    padding: 72px 0 430px;
   }
 
   .hero h1 {
-    font-size: clamp(46px, 12vw, 66px);
+    font-size: clamp(52px, 12vw, 70px);
   }
 
   .hero-intro {
@@ -408,11 +409,14 @@ main.container {
 
   .hero-portrait {
     top: auto;
-    right: -35px;
+    right: -20px;
     bottom: 0;
-    width: 90%;
-    height: 430px;
-    opacity: 0.8;
+    width: 88%;
+    height: 440px;
+  }
+
+  .hero-portrait img {
+    max-height: 440px;
   }
 
   .research-grid {
