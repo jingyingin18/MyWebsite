@@ -403,10 +403,6 @@ main.container {
     font-size: clamp(52px, 12vw, 70px);
   }
 
-  .hero-intro {
-    font-size: 17px;
-  }
-
   .hero-portrait {
     top: auto;
     right: -20px;
